@@ -1,0 +1,56 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Merriweather", serif;
+}
+body header {
+  text-align: center;
+}
+body header hgroup h1, body header hgroup h2 {
+  margin-bottom: 0;
+}
+body header hgroup h2, body header hgroup h3 {
+  margin-top: 0.5em;
+}
+body nav {
+  border: 1px solid pink;
+  margin-top: 1em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+body nav ul {
+  display: flex;
+  padding-left: 0;
+}
+body nav ul li {
+  text-align: center;
+  flex-grow: 1;
+  display: inline-block;
+  list-style: none;
+}
+body nav ul li a {
+  text-decoration: none;
+}
+body section {
+  width: 90%;
+  margin: 0 auto;
+}
+body footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 0.75em;
+}
+body footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

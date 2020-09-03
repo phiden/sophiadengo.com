@@ -1,0 +1,67 @@
+html, body {
+  padding:0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px; // 1 em
+
+  h1, h2, h3, h4, h5, h6 {
+      font-family: 'Merriweather', serif;
+  }
+
+  header {
+    text-align: center;
+
+    hgroup {
+      h1, h2 {
+        margin-bottom:0;
+      }
+      h2, h3 {
+        margin-top:.5em;
+      }
+    }
+  }
+
+  nav {
+
+    border:1px solid pink;
+    margin-top: 1em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+
+    ul {
+      display:flex;
+      padding-left: 0;
+
+      li {
+        text-align: center;
+        flex-grow: 1;
+        display: inline-block;
+        list-style: none;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  footer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: .75em;
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
