@@ -6,12 +6,14 @@ html, body {
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
+  color: #1a1a1a;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Merriweather", serif;
 }
 body header {
   text-align: center;
+  padding-top: 2em;
 }
 body header hgroup h1, body header hgroup h2 {
   margin-bottom: 0;
@@ -19,11 +21,17 @@ body header hgroup h1, body header hgroup h2 {
 body header hgroup h2, body header hgroup h3 {
   margin-top: 0.5em;
 }
+body header hgroup h2 {
+  font-weight: 400;
+  font-size: 1.25em;
+}
 body nav {
-  border: 1px solid pink;
+  background-color: rgba(2, 0, 80, 0.75);
+  color: #ffffff;
   margin-top: 1em;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
+  font-weight: 700;
 }
 body nav ul {
   display: flex;
@@ -37,10 +45,24 @@ body nav ul li {
 }
 body nav ul li a {
   text-decoration: none;
+  color: #ffffff;
+}
+body nav ul li a:hover {
+  border-bottom: 5px solid #ffffff;
+  color: #ffffff;
+}
+body nav ul li a:visited {
+  color: #ffffff;
 }
 body section {
   width: 90%;
   margin: 0 auto;
+}
+body section h2 {
+  font-size: 1em;
+}
+body section h3 {
+  font-size: 0.95em;
 }
 body footer {
   padding-top: 2em;
