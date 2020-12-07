@@ -1,3 +1,5 @@
+@import 'uswds.min.css';
+
 $color-body: #1a1a1a;
 $color-dark-blue: rgba(#020050, .75);
 $color-white: #ffffff;
@@ -9,30 +11,12 @@ html, body {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px; // 1 em
   color: $color-body;
 
   h1, h2, h3, h4, h5, h6 {
-      font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', serif;
   }
 
-  header {
-    text-align: center;
-    padding-top: 2em;
-
-    hgroup {
-      h1, h2 {
-        margin-bottom:0;
-      }
-      h2, h3 {
-        margin-top:.5em;
-      }
-      h2 {
-        font-weight: 400;
-        font-size: 1.25em;
-      }
-    }
-  }
 
   nav {
 
@@ -70,29 +54,9 @@ body {
     }
   }
 
-  main {
-    width: 90%;
-    margin: 0 auto;
-
-    h2 {
-      font-size: 1em;
-    }
-
-    h3 {
-      font-size: .95em;
-    }
-  }
-
   footer {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    text-align: center;
-    font-size: .75em;
-
-    p {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
+  //  text-align: center;
+  //  font-size: .75em;
   }
 }
 
@@ -101,18 +65,7 @@ body {
 
   body {
 
-    nav {
-      ul {
-        width: 75%;
-        margin: 0 auto;
-        padding-top: 1em;
-        padding-bottom: 1em;
-
-      }
-    }
-
     main {
-      width: 75%;
       border: 1px solid red;
     }
   }
