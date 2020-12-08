@@ -12,11 +12,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Merriweather", serif;
 }
 body nav {
-  background-color: rgba(2, 0, 80, 0.75);
   color: #ffffff;
-  margin-top: 1em;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
   font-weight: 700;
 }
 body nav ul {
@@ -40,11 +36,13 @@ body nav ul li a:hover {
 body nav ul li a:visited {
   color: #ffffff;
 }
-@media only screen and (min-width: 1024px) {
-  body main {
-    border: 1px solid red;
-  }
+
+hr {
+  border-top: 1px dashed #73b3e7;
+  border-bottom: 0;
+  width: 85%;
 }
+
 @media only screen and (min-width: 2048px) {
   body main {
     width: 65%;
