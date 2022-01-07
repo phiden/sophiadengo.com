@@ -1,21 +1,46 @@
-{% extends "layouts/base.html" %} 
+{% extends "layouts/base.html" %}
 
-{% set pageHeaderTitle = title %} 
-{% set pageHeaderSummary = content %} 
-{% set peopleItems = collections.people %} 
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
 
 {% block content %}
   <article>
-    {% include "partials/page-header.html" %} 
-    {% if peopleItems %} 
-      <div class="[ no-js-hidden ] [ panel dot-shadow ] [ bg-light-glare ]">
-        <div class="[ wrapper ] [ flow flow-space-700 ]">
-          <h2 class="[ headline ] [ measure-micro color-quinary ]" data-highlight="dark">Meet the team</h2>
-          {% include "partials/people.html" %}
-        </div>
-      </div>
-    {% endif %}
+    {% include "partials/page-header.html" %}
   </article>
 
-  {% include "partials/cta.html" %} 
+  <article>
+    design software currently in use:
+    figma
+    miro
+
+    other software I've worked with:
+    sketch
+    mural
+    Photoshop
+    Illustrator
+    Balsamiq
+    Moqups
+
+  </article>
+
+  <article>
+    tech skills:
+
+    css / SCSS
+    html
+
+    novice-level: Typescript / Javascript
+
+    React, well enough to make front-end changes
+    Github and Azure DevOps
+  </article>
+
+  <article>
+    concepts:
+
+    design systems
+    content management systems, primarily Wordpress and Shopify
+  </article>
+  
+  {% include "partials/cta.html" %}
 {% endblock %}
