@@ -12,6 +12,9 @@
     {% include "partials/site-head.html" %}
     <main tabindex="-1" id="main-content">{% block content %}{% endblock %}</main>
   </body>
+
+  {% include "partials/page-footer.html" %}
+
   <style>{% include "css/critical.css" %}</style>
     {# Add facility for pages to delare an array of critical styles #}
     {% if pageCriticalStyles %}
@@ -19,7 +22,7 @@
         <style>{% include item %}</style>
       {% endfor %}
     {% endif %}
-    
+
     <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
 
     {# Add facility for pages to declare an array of stylesheet paths #}
