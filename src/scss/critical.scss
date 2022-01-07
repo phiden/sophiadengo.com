@@ -6,15 +6,6 @@
 
 @import 'reset';
 
-// Import blocks
-@import 'blocks/definition-group';
-@import 'blocks/tags-list';
-@import 'blocks/site-foot';
-@import 'blocks/site-head';
-@import 'blocks/nav';
-@import 'blocks/button';
-@import 'blocks/skip-link';
-
 // Import utilities
 @import 'utilities/dot-shadow';
 @import 'utilities/flow';
@@ -24,6 +15,18 @@
 @import 'utilities/site-wrap';
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
+@import 'utilities/headline';
+
+// Import blocks
+@import 'blocks/definition-group';
+@import 'blocks/tags-list';
+@import 'blocks/site-foot';
+@import 'blocks/site-head';
+@import 'blocks/nav';
+@import 'blocks/button';
+@import 'blocks/skip-link';
+@import 'blocks/cta';
+@import 'blocks/featured-work';
 
 // Global styles start
 :root {
