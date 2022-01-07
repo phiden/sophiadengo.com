@@ -9,8 +9,19 @@
     {% include "partials/meta-info.html" %}
   </head>
   <body>
-    {% include "partials/site-head.html" %}
-    <main tabindex="-1" id="main-content">{% block content %}{% endblock %}</main>
+    <div class="site-wrap">
+      {% include "partials/site-head.html" %}
+
+      <main tabindex="-1" id="main-content">
+        {% block content %}{% endblock %}
+      </main>
+
+      <footer role="contentinfo" class="site-foot">
+        <div class="wrapper">
+          <p>This is a made up agency for the course, <a href="https://learneleventyfromscratch.com">“Learn Eleventy From Scratch”</a>.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 
   {% include "partials/page-footer.html" %}
