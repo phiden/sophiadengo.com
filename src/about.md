@@ -1,7 +1,7 @@
 ---
 title: 'About Issue 33'
 layout: 'layouts/about.html'
-permalink: '/about-us/index.html'
+permalink: '/about/index.html'
 ---
 
 Wanna see our foosball table? Nah, only kidding. We’re a made-up
