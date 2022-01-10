@@ -4,9 +4,14 @@
 {% set pageHeaderSummary = content %}
 
 {% block content %}
+
+{% set ctaContent = primaryCTA %} 
+{% include "partials/cta.html" %}
+
   <article>
     {% include "partials/page-header.html" %}
+    
   </article>
-
-  {% include "partials/cta.html" %}
+  
+  
 {% endblock %}
