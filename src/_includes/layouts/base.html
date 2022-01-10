@@ -16,15 +16,11 @@
         {% block content %}{% endblock %}
       </main>
 
-      <footer role="contentinfo" class="site-foot">
-        <div class="wrapper">
-          <p>This is a made up agency for the course, <a href="https://learneleventyfromscratch.com">“Learn Eleventy From Scratch”</a>.</p>
-        </div>
-      </footer>
+      {% include "partials/page-footer.html" %}
     </div>
   </body>
 
-  {% include "partials/page-footer.html" %}
+  
 
   <style>{% include "css/critical.css" %}</style>
     {# Add facility for pages to delare an array of critical styles #}
