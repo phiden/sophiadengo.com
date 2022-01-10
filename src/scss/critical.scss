@@ -16,6 +16,7 @@
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
 @import 'utilities/headline';
+@import 'utilities/auto-grid';
 
 // Import blocks
 @import 'blocks/definition-group';
@@ -27,6 +28,9 @@
 @import 'blocks/skip-link';
 @import 'blocks/cta';
 @import 'blocks/featured-work';
+@import 'blocks/people';
+@import 'blocks/person';
+@import 'blocks/gallery';
 
 // Global styles start
 :root {
