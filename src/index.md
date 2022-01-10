@@ -1,26 +1,19 @@
 ---
-title: 'Issue 33'
-metaDesc: 'A made up agency site that you build if you take Learn Eleventy From Scratch, by Piccalilli'
+title: 'Sophia Dengo, Technologist'
+metaDesc: 'Senior user experience & product designer who loves to solve hard problems.'
 layout: 'layouts/home.html'
 intro:
-  eyebrow: 'Digital Marketing is our'
-  main: 'Bread & Butter'
-  summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
-  buttonText: 'See our work'
+  eyebrow: "I make beautiful, usable"
+  main: 'digital experiences.'
+  summary: "I'm a designer who codes, or a developer who designs. Regardless, I like to solve problems."
+  buttonText: 'See my work'
   buttonUrl: '/work'
   image: '/images/bg/phiden-octo-2020.png'
-  imageAlt: 'Buttered toasted white bread'
+  imageAlt: 'Sophia, if she were an Octocat'
 primaryCTA:
-  title: 'This is an agency that doesn’t actually exist'
-  summary: 'This is the project site you build when you take the “Learn
-    Eleventy From Scratch” course so it is all made up as a pretend
-    context. You will learn a lot about Eleventy by building this site
-    though. Take the course today!'
-  buttonText: 'Buy a copy'
-  buttonUrl: 'https://learneleventyfromscratch.com'
+  title: 'Simple experiences are never as simple as they seem'
+  summary: "Especially in the civic tech space, simple, functional experiences are usually the result of a lot of work behind the scenes. That's where I've focused my energy for the last several years: doing the work to make digital services easier to access, and more satisfying to use."
 featuredWork:
   title: 'Selected work'
   summary: 'Some stuff that should give you an idea of what we’re all about.'
 ---
-
-This is pretty _rad_, right?
