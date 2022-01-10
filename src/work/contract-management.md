@@ -1,7 +1,6 @@
 ---
-title: 'Breakfast Club'
-summary: 'A swanky website for a swanky new restaurant in the heart of
-Glasgow.'
+title: 'Contract Management on DemandStar'
+summary: 'Still in progress; ask me more'
 displayOrder: 4
 featured: false
 hero:

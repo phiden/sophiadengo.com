@@ -1,6 +1,6 @@
 ---
-title: 'Travel Today'
-summary: 'A travel website to help make booking easier.'
+title: 'This Website'
+summary: "Designing for yourself is the hardest part"
 displayOrder: 5
 featured: false
 hero:

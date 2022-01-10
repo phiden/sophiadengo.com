@@ -1,6 +1,6 @@
 ---
-title: 'Outgoings iOS App'
-summary: 'A native iOS app to help people to keep a track of their finances by providing easy-to use tracking and organising capabilities.'
+title: 'VA: Discharge Wizard'
+summary: "Helping Veterans get the benefits they've earned"
 displayOrder: 1
 featured: true
 hero:

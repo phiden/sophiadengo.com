@@ -1,9 +1,8 @@
 ---
-title: 'Brunch & Brew'
-summary: 'An app that helps to bring different generations together via
-intergenerational volunteering.'
+title: 'GSA Fleet: Winning the Bid'
+summary: ""
 displayOrder: 3
-featured: true 
+featured: true
 hero:
   image: '/images/work/brunch-and-brew-hero.jpg'
   imageAlt: 'A composition of the main landing screen and other key
