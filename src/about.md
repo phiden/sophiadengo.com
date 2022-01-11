@@ -5,6 +5,11 @@ permalink: '/about/index.html'
 primaryCTA:
   title: 'A senior designer invested in excellent digital experiences'
   summary: ""
+bio: "Knits, sews, metalsmiths, flies an airplane, loves space exploration. she/her"
+skills:
+school:
+fun:
+
 ---
 
 Wanna see our foosball table? Nah, only kidding. We’re a made-up
