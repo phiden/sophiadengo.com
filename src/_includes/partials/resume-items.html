@@ -1,0 +1,33 @@
+<article class="[ resume-items ] [ dot-shadow panel ] [ bg-light-glare ]">
+
+  hello world, resume loops
+  <div class="[ wrapper ] [ flow ]">
+    <div class="[ resume-items__inner ] [ flow ]">
+      <div class="[ resume-items__intro ] [ flow flow-space-300 ]">
+        <h2
+          class="[ resume-items__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
+          data-highlight="dark"
+        >
+          {{ resume.title }}
+        </h2>
+        <p class="[ resume-items__summary ] [ measure-compact ]">
+          {{ resume.summary }}
+        </p>
+      </div>
+
+      {% for item in collections.resume %}
+      <article>
+        <h2>{{ item.data.name }}</h2>
+        <h3>{{ item.data.title }} | {{ item.data.when }}</h3>
+        <h4>{{ item.role }}</h4>
+        <div>{{ item.data.summary }}</div>
+      </article>
+
+      {% endfor %}
+    </div>
+
+    <div class="[ resume-items__action ] [ flow-space-700 ]">
+      <a href="/work/" class="button">See some work</a>
+    </div>
+  </div>
+</article>
