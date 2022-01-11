@@ -1,11 +1,12 @@
 ---
 title: 'DemandStar Registration'
-summary: 'Still in progress; ask me more'
-displayOrder: 4
+summary: 'How do you rework a complicated process to make it faster and easier?'
+displayOrder: 2
 featured: false
+role: 'Product Designer'
 hero:
-  image: '/images/work/breakfast-club-hero.jpg'
-  imageAlt: 'The breakfast club hero image'
+  image: '/images/work/ds-registration-start.png'
+  imageAlt: 'DemandStar registration starting point'
 gallery:
   - title: 'Loads of space to breathe'
     summary: 'It was important to us to make sure the food images did

@@ -1,7 +1,7 @@
 ---
 title: "The Ninety-Nines, Maryland Chapter"
 summary: "When asked to be creative, show them who you are"
-displayOrder: 2
+displayOrder: 9
 sidework: true
 featured: false
 role: 'Designer, Wordpress admin, PM'

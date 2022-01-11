@@ -1,7 +1,7 @@
 ---
 title: "Border Stories"
 summary: "A multimedia documentary with legs"
-displayOrder: 3
+displayOrder: 14
 featured: true
 collection: freelance
 role: 'Designer, developer, producer'

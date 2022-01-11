@@ -1,7 +1,7 @@
 ---
 title: "The Aura Flightbag"
 summary: "When asked to be creative, show them who you are"
-displayOrder: 2
+displayOrder: 4
 sidework: true
 featured: false
 role: 'Designer, Wordpress admin, PM'

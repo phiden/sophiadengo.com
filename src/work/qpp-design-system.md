@@ -1,7 +1,7 @@
 ---
 title: "Get in Formation: VA's Design System"
 summary: "An experiment that worked out so well, it's still in active development and in use by an entire government agency."
-displayOrder: 2
+displayOrder: 11
 featured: false
 designSystem: true
 collection: designsystem

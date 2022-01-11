@@ -1,7 +1,7 @@
 ---
 title: "Pied Piper Kids"
 summary: "An early-pandemic leg up"
-displayOrder: 2
+displayOrder: 7
 freelance: true
 featured: false
 role: 'Designer, Wordpress admin, PM'

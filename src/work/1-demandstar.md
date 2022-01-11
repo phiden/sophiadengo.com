@@ -1,26 +1,13 @@
 ---
-title: "DemandStar's Component Library"
-summary: "An in-progress modernization"
-displayOrder: 2
+title: "DemandStar's Style Guide"
+summary: "Modernizing an existing platform requires UI standardization"
+displayOrder: 1
 designSystem: true
-role: 'Designer'
+role: 'Product Designer'
 longSummary: ""
 hero:
-  image: '/images/work/behind-the-scenes-hero.jpg'
-  imageAlt: 'A composition of all the views from the app'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+  image: '/images/work/ds-buttons.png'
+  imageAlt: "DemandStar's button library"
 gallery:
   - title: 'Creative layouts'
     summary: 'We made sure the content sang with some creative layout

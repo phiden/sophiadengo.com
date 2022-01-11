@@ -1,7 +1,7 @@
 ---
 title: "CNN's Lightyears"
 summary: "writing writing writing"
-displayOrder: 2
+displayOrder: 13
 featured: false
 role: 'Designer, Wordpress admin, PM'
 longSummary: "In mid-2017, I was a senior UX designer working on Vets.gov (now rolled into VA.gov) with the Digital Service at VA. The team had a very efficient workflow: daily releases to production, a distributed and collaborative development workflow, and a robust research and design team. What it didn't have was a single source of truth for any of the UI elements, either from a visual or a code perspective.

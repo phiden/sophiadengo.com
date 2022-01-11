@@ -1,7 +1,8 @@
 ---
-title: 'Our finest work'
+title: 'My favorite work'
 layout: 'layouts/work-landing.html'
 ---
 
-Some of our finest work from websites right through to printed
-branding that shows our range and diversity of talent in the agency.
+From the most recent to my favorite older pieces, here's a smattering of work from around my skillset.
+
+Design Systems | Freelance | Side Projects

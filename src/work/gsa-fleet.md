@@ -1,7 +1,7 @@
 ---
 title: 'GSA Fleet: Winning the Bid'
 summary: ""
-displayOrder: 3
+displayOrder: 5
 featured: true
 hero:
   image: '/images/work/fleet-wireframe.png'

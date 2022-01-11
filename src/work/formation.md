@@ -1,7 +1,7 @@
 ---
 title: "Get in Formation: VA's Design System"
 summary: "An experiment that worked out so well, it's still in active development and in use by an entire government agency."
-displayOrder: 2
+displayOrder: 12
 featured: true
 designSystem: true
 role: 'Designer, developer, primary advocate'
@@ -28,4 +28,7 @@ gallery:
     because let’s be honest: that’s what you all came for.'
     image: '/images/work/behind-the-scenes-gallery-3.jpg'
 github: "https://github.com/department-of-veterans-affairs/veteran-facing-services-tools"
+primaryCTA:
+  title: "There's more to it than this"
+  summary: "Good work is always a process. If you'd like to know more details about mine, please get in touch!"
 ---

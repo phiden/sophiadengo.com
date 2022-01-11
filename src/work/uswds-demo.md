@@ -1,7 +1,7 @@
 ---
 title: "USWDS Demo: Have a Snack!"
 summary: "When asked to be creative, show them who you are"
-displayOrder: 2
+displayOrder: 6
 sidework: true
 featured: false
 role: 'Designer, Wordpress admin, PM'

@@ -1,7 +1,7 @@
 ---
 title: "Ellen Hoffman Designs"
 summary: "A longstanding client moved to a new platform"
-displayOrder: 2
+displayOrder: 8
 freelance: true
 featured: false
 role: 'Designer, Wordpress admin, PM'
