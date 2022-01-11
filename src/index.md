@@ -12,8 +12,8 @@ intro:
   imageAlt: 'Sophia, if she were an Octocat'
 primaryCTA:
   title: 'Simple experiences are never as simple as they seem'
-  summary: "Especially in the civic tech space, simple, functional experiences are usually the result of a lot of work behind the scenes. That's where I've focused my energy for the last several years: doing the work to make digital services easier to access, and more satisfying to use."
+  summary: "Simple, functional experiences are usually the result of a lot of work behind the scenes. That's where I've focused my energy for the last several years: doing the work to make digital services easier to access, and more satisfying to use."
 featuredWork:
-  title: 'Selected work'
-  summary: 'Some stuff that should give you an idea of what we’re all about.'
+  title: 'Favorites'
+  summary: "The work I'm proudest of."
 ---

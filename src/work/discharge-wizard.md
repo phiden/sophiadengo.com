@@ -4,21 +4,8 @@ summary: "Helping Veterans get the benefits they've earned"
 displayOrder: 1
 featured: true
 hero:
-  image: '/images/work/outgoings-hero.jpg'
-  imageAlt: 'Screens from the app, composed together as a group.'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+  image: '/images/work/discharge-hero.png'
+  imageAlt: 'First screen in the discharge wizard flow'
 gallery:
   - title: 'Multi-account support'
     summary: 'We wanted the app to be as useful as possible, so
@@ -32,4 +19,5 @@ gallery:
     user-friendly information'
     image: '/images/work/outgoings-gallery-3.jpg'
 team: [1, 4, 6]
+github: ""
 ---

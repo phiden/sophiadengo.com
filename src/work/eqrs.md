@@ -2,26 +2,13 @@
 title: "EQRS' Design System"
 summary: "A lesson in the difficulties of buy-in"
 displayOrder: 2
-featured: true
+featured: false
 collection: designsystem
 role: 'Designer, developer, primary advocate'
 longSummary: ""
 hero:
   image: '/images/work/behind-the-scenes-hero.jpg'
   imageAlt: 'A composition of all the views from the app'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
 gallery:
   - title: 'Creative layouts'
     summary: 'We made sure the content sang with some creative layout

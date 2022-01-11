@@ -4,22 +4,8 @@ summary: ""
 displayOrder: 3
 featured: true
 hero:
-  image: '/images/work/brunch-and-brew-hero.jpg'
-  imageAlt: 'A composition of the main landing screen and other key
-  views'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+  image: '/images/work/fleet-wireframe.png'
+  imageAlt: 'A wireframe of a conceptual task manager'
 gallery:
   - title: 'Making sign-up simple'
     summary: 'We wanted to help them acheive lots of sign-ups, so
@@ -33,5 +19,4 @@ gallery:
     summary: 'Using charts we help communicate the information that
     means the most.'
     image: '/images/work/brunch-and-brew-gallery-3.jpg'
-team: [2, 5, 4]
 ---

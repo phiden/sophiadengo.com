@@ -6,19 +6,6 @@ featured: false
 hero:
   image: '/images/work/breakfast-club-hero.jpg'
   imageAlt: 'The breakfast club hero image'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
 gallery:
   - title: 'Loads of space to breathe'
     summary: 'It was important to us to make sure the food images did

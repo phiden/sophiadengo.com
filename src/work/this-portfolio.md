@@ -3,6 +3,7 @@ title: 'This Website'
 summary: "Designing for yourself is the hardest part"
 displayOrder: 5
 sidework: false
+featured: false
 hero:
   image: '/images/work/travel-today-hero.jpg'
   imageAlt: 'The travel today hero image'
