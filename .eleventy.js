@@ -24,12 +24,35 @@ module.exports = config => {
       x => x.data.featured
     );
   });
+
+  // Returns work items, sorted by display order then filtered by freelance => does it work?
+  config.addCollection('freelance', collection => {
+    return sortByDisplayOrder(collection.getFilteredByGlob('./src/work/*.md')).filter(
+      x => x.data.freelance
+    );
+  });
+
+  // Returns work items, sorted by display order then filtered by featured => does it work?
+  config.addCollection('sidework', collection => {
+    return sortByDisplayOrder(collection.getFilteredByGlob('./src/work/*.md')).filter(
+      x => x.data.sidework
+    );
+  });
+
+  // Returns work items, sorted by display order then filtered by featured => does it work?
+  config.addCollection('designSystem', collection => {
+    return sortByDisplayOrder(collection.getFilteredByGlob('./src/work/*.md')).filter(
+      x => x.data.designSystem
+    );
+  });
+
   // Returns a list of resume items ordered by filename
   config.addCollection('resume', collection => {
     return collection.getFilteredByGlob('./src/resume/*.md').sort((a, b) => {
       return Number(a.fileSlug) > Number(b.fileSlug) ? 1 : -1;
     });
   });
+
   // Returns a list of people ordered by filename
   config.addCollection('people', collection => {
     return collection.getFilteredByGlob('./src/people/*.md').sort((a, b) => {

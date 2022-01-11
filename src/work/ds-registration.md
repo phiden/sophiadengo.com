@@ -1,5 +1,5 @@
 ---
-title: 'Contract Management on DemandStar'
+title: 'DemandStar Registration'
 summary: 'Still in progress; ask me more'
 displayOrder: 4
 featured: false

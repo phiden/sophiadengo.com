@@ -2,8 +2,7 @@
 title: "DemandStar's Component Library"
 summary: "An in-progress modernization"
 displayOrder: 2
-featured: true
-collection: designsystem
+designSystem: true
 role: 'Designer'
 longSummary: ""
 hero:
