@@ -1,8 +1,9 @@
 ---
 title: "Border Stories"
 summary: "A multimedia documentary with legs"
+shortSummary: "An older, independent project that required all my skills"
 displayOrder: 12
-featured: true
+featured: false
 collection: freelance
 role: 'Designer, developer, producer'
 longSummary: "One of the projects I'm proudest of is a 2008 multimedia documentary that I helped to produce. Although it's nearly 14 years old, the subject matter is still extremely relevant.
