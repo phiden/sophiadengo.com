@@ -1,7 +1,7 @@
 ---
 title: "Ellen Hoffman Designs"
 summary: "A longstanding client moved to a new platform"
-displayOrder: 8
+displayOrder: 7
 freelance: true
 featured: false
 role: 'Designer, Wordpress admin, PM'
@@ -10,19 +10,6 @@ url: https://ellenhoffmandesigns.com/
 hero:
   image: '/images/work/ellen-homepage.png'
   imageAlt: 'Ellen Hoffman Designs homepage'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
 gallery:
   - title: 'Creative layouts'
     summary: 'We made sure the content sang with some creative layout

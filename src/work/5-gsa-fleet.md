@@ -1,8 +1,9 @@
 ---
 title: 'GSA Fleet: Winning the Bid'
-summary: ""
+summary: "When competing for a federal contract, teams are often thrown together for a rapid-fire technical challenge. The idea is to demonstrate not only that a given organization has the technical skills, but that the proposed team can work together to achieve a goal, using a given framework."
 displayOrder: 5
 featured: true
+role: "UI/UX Lead"
 hero:
   image: '/images/work/fleet-wireframe.png'
   imageAlt: 'A wireframe of a conceptual task manager'

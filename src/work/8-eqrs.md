@@ -1,7 +1,7 @@
 ---
 title: "EQRS' Design System"
 summary: "A lesson in the difficulties of buy-in"
-displayOrder: 10
+displayOrder: 8
 featured: false
 collection: designsystem
 role: 'Designer, developer, primary advocate'

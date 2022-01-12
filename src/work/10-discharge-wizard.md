@@ -1,7 +1,7 @@
 ---
 title: 'VA: Discharge Wizard'
 summary: "Helping Veterans get the benefits they've earned"
-displayOrder: 13
+displayOrder: 10
 featured: true
 hero:
   image: '/images/work/discharge-hero.png'
