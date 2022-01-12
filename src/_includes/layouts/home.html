@@ -3,24 +3,31 @@
 
 {% block content %}
 <div class="wrapper">
+  
+  <div class="[ intro__header ] [ radius frame bg-light-glare ]">
+    <p class="[ intro__heading ] [ weight-normal text-400 md:text-600 ]">
+      This site is a work in progress! It's based on learneleventyfromscratch.com and will be changing drastically in the next few days.
+    </p>
+  </div>
+  
   <article class="intro">
-    <div class="[ intro__header ] [ radius frame ]">
-      <h1 class="[ intro__heading ] [ weight-normal text-400 md:text-600 ]">
+  <!--  <div class="[ intro__header ] [ radius frame ]">
+      <h2 class="[ intro__heading ] [ weight-normal text-400 md:text-600 ]">
         {{ intro.eyebrow }}
         <em class="text-800 md:text-900 lg:text-major weight-bold">{{ intro.main }}</em>
-      </h1>
-    </div>
+      </h2>
+    </div>-->
     <div class="[ intro__content ] [ flow ]">
       <p class="intro__summary">{{ intro.summary }}</p>
       <a href="{{ intro.buttonUrl }}" class="button">{{ intro.buttonText }}</a>
     </div>
-    <div class="[ intro__media ] [ radius dot-shadow ]">
+    <!--<div class="[ intro__media ] ">
       <img
-        class="[ intro__image ] [ radius ]"
+        class=""
         src="{{ intro.image }}"
         alt="{{ intro.imageAlt }}"
       />
-    </div>
+    </div>-->
   </article>
 </div>
 
@@ -28,8 +35,5 @@
 {% include "partials/cta.html" %} 
 
 {% include "partials/featured-work.html" %} 
-
-{% set ctaContent = cta %} 
-{% include "partials/cta.html" %} 
 
 {% endblock %}

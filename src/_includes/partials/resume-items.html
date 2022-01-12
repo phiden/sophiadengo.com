@@ -1,0 +1,47 @@
+<article class="[ resume-items ] [ dot-shadow panel ] [ bg-light-glare ]">
+
+  <div class="[ wrapper ] [ flow ]">
+    <div class="[ resume-items__inner ] [ flow ]">
+      
+      {% for item in collections.resume %}
+      <article>
+        <h2>{{ item.data.name }}</h2>
+        <h3>{{ item.data.title }} | {{ item.data.when }}</h3>
+        <h4>{{ item.role }}</h4>
+        <div>{{ item.data.summary }}</div>
+      </article>
+
+      {% endfor %}
+    </div>
+
+    <div class="[ resume-items__action ] [ flow-space-700 ]">
+      <a href="/work/" class="button">See some work</a>
+    </div>
+    
+    <section class="[ wrapper ] [ flow ] [ resume-items ] [ dot-shadow panel ] [ bg-light-glare ]">
+      <h2>Skills</h2>
+      <ul>
+        <li>Human-centered design practices: designing and building for responsiveness and accessibility, facilitating user research and discovery exercises</li>
+        <li>Front-end development: Javascript (with a smattering of Typescript), HTML, CSS/SCSS, beginner Angular and React</li>
+        <li>Design systems: originating, growing, and maintaining new and existing systems</li>
+        <li>Rapid prototyping with flat files or in code</li>
+        <li>Content management: Wordpress, Shopify</li>
+      </ul>
+    </section>
+    
+    <section class="[ wrapper ] [ flow ] [ resume-items ] [ dot-shadow panel ] [ bg-light-glare ]">
+      <h2>Education</h2>
+      <ul>
+        <li>MA, Museum Studies - Johns Hopkins University</li>
+        <li>MA, Journalism & Communication - University of North Carolina, Chapel Hill</li>
+        <li>BSc, Mass Communication - Boston University</li>
+      </ul>
+    </section>
+    
+    <section class="[ wrapper ] [ flow ] [ resume-items ] [ dot-shadow panel ] [ bg-light-glare ]">
+      <h2>Interests</h2>
+      <p>I knit, sew, metalsmith, and generally like to make things. I'm also a private pilot, love space exploration and speak fluent Spanish.</p>
+    </section>
+    
+  </div>
+</article>
