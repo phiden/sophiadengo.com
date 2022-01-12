@@ -4,6 +4,7 @@ summary: "Helping Veterans get the benefits they've earned"
 shortSummary: "Work that truly makes an impact"
 displayOrder: 10
 featured: true
+role: "Designer & researcher"
 hero:
   image: '/images/work/discharge-hero.png'
   imageAlt: 'First screen in the discharge wizard flow'
