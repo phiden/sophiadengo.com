@@ -8,36 +8,13 @@ hero:
   image: '/images/work/ds-registration-start.png'
   imageAlt: 'DemandStar registration starting point'
 gallery:
-  - title: 'Loads of space to breathe'
-    summary: 'It was important to us to make sure the food images did
-    all of the talking: not the design.'
-    image: '/images/work/breakfast-club-gallery-1.jpg'
-  - title: 'Keeping it light'
-    summary: 'We used the latest web technologies to make sure this
-    site looked good and performed well.'
-    image: '/images/work/breakfast-club-gallery-2.jpg'
-  - title: 'Modern layouts'
-    summary: 'We used layouts that for the longest time, we reserved
-    only for print.'
-    image: '/images/work/breakfast-club-gallery-3.jpg'
-team: [1, 2, 5]
----
-name: 'DemandStar'
-title: 'Registration'
-key: 2
-image: '/images/people/1.jpg'
-url: ''
-status: ''
-role: 'Product Designer'
-goal: "Improve DemandStar's supplier registration process."
-challenge: ""
-plan: ""
-summary: "DemandStar's supplier registration process was implemented quickly, and without user testing. It was a several-step process that included selecting a free product, telling us about yourself and your business, and potentially choosing additional products and completing a credit card transaction, all before actually logging on to the platform.
-
-Analytics showed that people were dropping off the registration process without completing it, reducing the number of suppliers on the platform and revenue potential.
-
-Going through the registration process several times myself, I could see places where we could really simplify the workflow and improve the user interface without sacrificing the existing business requirements."
-outcome: ""
----
-
+  - title: 'Goal: reduce registration drop-off'
+    summary: "DemandStar is a double-sided marketplace. On one side, we have government agencies, which are onboarded by a dedicated team. On the other side are vendors, who self-serve to register onto the platform. DemandStar's analytics were showing significant drop-off in the registration process, which was several screens long and included a confusing product selection screen."
+    image: ''
+  - title: 'Constraint: no time for testing'
+    summary: "The deadline on a revamped registration process was super short. In lieu of testing the existing process with suppliers, every employee at the company ran through registration and noted where they'd gotten confused or frustrated. This, along with analytics that highlighted problem areas, gave me a solid starting point."
+    image: ''
+  - title: 'Simplify!'
+    summary: "The biggest frustration was a screen where you'd choose a subscription product based on geography. Instead of a confusing grid of fifty choices, I introduced a simple drop-down presented in alphabetical order, which would then present the user with a cleaned-up view of further choices to make. By reducing the number of elements on the page, the user knows where to focus and can understand clearly what the next steps are. On release, we saw an uptick in completed registrations. As a major added benefit, the engineers who implemented UI changes substantially improved the codebase, so the process now runs faster and can be more readily experimented with to further improve the user experience and meet business goals."
+    image: ''
 ---
