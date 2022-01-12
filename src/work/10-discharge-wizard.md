@@ -27,4 +27,7 @@ news:
     storyURL: "https://medium.com/the-u-s-digital-service/designing-with-veterans-to-right-a-wrong-a865ef30a0dc"
   - storyTitle: "Trying To Upgrade Your Discharge? The VA Has An App For That Now"
     storyURL: "https://taskandpurpose.com/veterans-benefits/va-launches-site-for-discharge-upgrade/"
+primaryCTA:
+  title: "There's more to it than this"
+  summary: "Good work is always a process. If you'd like to know more details about mine, please get in touch!"
 ---

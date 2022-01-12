@@ -18,4 +18,7 @@ gallery:
   - title: 'What comes next?'
     summary: "I'm going to keep the Aura site up and continue developing not only the bag itself, but the site that supports it. The current audience is a scholarship selection panel, but eventually I'd like it to be for makers. This means I need to improve the information architecture, add search, and refine the instructions layout (not to mention the instructions themselves)."
     image: ''
+primaryCTA:
+  title: "There's more to it than this"
+  summary: "Good work is always a process. If you'd like to know more details about mine, please get in touch!"
 ---

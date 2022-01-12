@@ -26,4 +26,7 @@ gallery:
     summary: 'We made the the stunning photography sit center stage
     because let’s be honest: that’s what you all came for.'
     image: '/images/work/behind-the-scenes-gallery-3.jpg'
+primaryCTA:
+  title: "There's more to it than this"
+  summary: "Good work is always a process. If you'd like to know more details about mine, please get in touch!"
 ---

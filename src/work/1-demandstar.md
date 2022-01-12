@@ -22,4 +22,7 @@ gallery:
     summary: "I came into DemandStar from federal contracting, where accessibility best practices became very near and dear to my heart. It's a personal goal of mine to make DemandStar more and more accessible over time. While I can't yet influence things like screenreader compatibility or even keyboard navigation, every pattern I touch in the styleguide is modified as needed to become more usable. The best example, currently, is the form controls: I changed their layouts to support screenreader expectations and increase readability."
     image: '/images/work/form-controls.png'
     imageAlt: "DemandStar's form controls"
+primaryCTA:
+  title: "There's more to it than this"
+  summary: "Good work is always a process. If you'd like to know more details about mine, please get in touch!"
 ---
