@@ -13,8 +13,8 @@ In addition to setting a project timeline and budget and doing the organizationa
 
 We went from working agreement to a stable, revenue-generating site in three weeks."
 hero:
-  image: '/images/work/behind-the-scenes-hero.jpg'
-  imageAlt: 'A composition of all the views from the app'
+  image: '/images/work/ppk.png'
+  imageAlt: "Pied Piper's homepage"
 gallery:
   - title: 'Creative layouts'
     summary: 'We made sure the content sang with some creative layout

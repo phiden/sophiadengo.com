@@ -5,7 +5,7 @@ layout: 'layouts/home.html'
 intro:
   eyebrow: "I make beautiful, usable"
   main: 'digital experiences.'
-  summary: "I'm a designer who codes, or a developer who designs. Regardless, I like to solve problems."
+  summary: "I'm a scrappy senior user experience and product designer who loves to solve problems."
   buttonText: 'See my work'
   buttonUrl: '/work'
   image: '/images/bg/phiden-octo-2020.png'

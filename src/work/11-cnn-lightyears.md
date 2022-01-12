@@ -8,8 +8,8 @@ longSummary: "In mid-2017, I was a senior UX designer working on Vets.gov (now r
 
 This lack of a canonical reference was causing divergence in the UI, visually, and in the codebase. The visual quirks were such that nobody could really point at Vets.gov and say that it looked wrong, and everything worked well, but the inconsistencies were rapidly building to the point where the growing design team was beginning to struggle to stay in step with one another. From a development standpoint, multiple versions of the same patterns were making it tough to continue rapidly development and steady maintenance of core product features."
 hero:
-  image: '/images/work/behind-the-scenes-hero.jpg'
-  imageAlt: 'A composition of all the views from the app'
+  image: '/images/work/lightyears-me.png'
+  imageAlt: 'A screenshot of the Lightyears homepage'
 keyFacts:
   - primary: '50%'
     secondary: 'Increase in engagement'
