@@ -43,7 +43,7 @@ body {
   line-height: 1.5;
   font-size: get-size('500');
 
-  @include apply-utility('font', 'base');
+  @include apply-utility('font', 'sans');
 }
 
 a:not([class]) {
@@ -66,7 +66,7 @@ h3,
 h4 {
   font-weight: 900;
 
-  @include apply-utility('font', 'sans');
+  @include apply-utility('font', 'base');
   @include apply-utility('leading', 'flat');
 }
 

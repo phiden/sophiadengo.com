@@ -77,7 +77,7 @@
 
   // Flip the ratio for larger breakpoints
   @include media-query('lg') {
-    grid-template-columns: 1fr minmax(44rem, 1fr);
+    grid-template-columns: 2fr minmax(44rem, 1fr);
 
     // Because it's so large, it make sense to limit the image height too
     &__media {
