@@ -1,5 +1,8 @@
 .site-head {
-  padding: get-size('600') 0;
+  padding: get-size('600') 0 get-size('700') 0;
+  margin: 0 0 get-size('600') 0;
+  background-color: get-color('dark');
+  color: get-color('light-glare');
 
   &__inner {
     display: flex;
@@ -11,6 +14,10 @@
   &__brand {
     flex-shrink: 0;
     margin-inline-end: get-size('600'); // Prevents nav bunching up to the logo
+    
+    // if not using svg
+    color: get-color('light-glare');
+    text-decoration: none;
 
     // Optical adjustment to account for the offset the sunken 3s create
     transform: translateY(0.25rem);
@@ -22,6 +29,7 @@
 
   &__nav {
     padding: get-size('300') 0;
+    
   }
 
   @include media-query('md') {
