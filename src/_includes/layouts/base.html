@@ -10,10 +10,7 @@
   </head>
   <body>
     <div class="site-wrap">
-      <!-- homepage gets a hero, nothing else does. -->
-      {% if page.url != '/' %}
       {% include "partials/site-head.html" %}
-      {% endif %}
 
       <main tabindex="-1" id="main-content">
         {% block content %}{% endblock %}

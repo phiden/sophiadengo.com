@@ -5,7 +5,9 @@ layout: 'layouts/home.html'
 intro:
   eyebrow: "a senior product designer"
   main: 'focused on the human experience'
-  summary: "Simple, functional experiences are usually the result of a lot of work behind the scenes. That's where I've focused my energy for the last several years: doing the work to make digital services easier to access, and more satisfying to use."
+  summary: "As technologists, we should remember that a human being, with their own unique experiences and needs, is at the end of everything we make.
+
+I love to make beautiful and delightful things, but ultimately, I work to increase inclusivity and access to digital services, to simplify tools, and to make the products I touch more satisfying to use."
   buttonText: 'See my work'
   buttonUrl: '/work'
   image: '/images/bg/phiden-octo-2020.png'
