@@ -7,7 +7,6 @@
 @import 'reset';
 
 // Import utilities
-@import 'utilities/dot-shadow';
 @import 'utilities/flow';
 @import 'utilities/frame';
 @import 'utilities/panel';
@@ -19,7 +18,7 @@
 @import 'utilities/auto-grid';
 
 // Import blocks
-@import 'blocks/definition-group';
+//@import 'blocks/definition-group';
 @import 'blocks/tags-list';
 @import 'blocks/site-foot';
 @import 'blocks/site-head';
@@ -28,8 +27,6 @@
 @import 'blocks/skip-link';
 @import 'blocks/cta';
 @import 'blocks/featured-work';
-@import 'blocks/people';
-@import 'blocks/person';
 @import 'blocks/gallery';
 
 // Global styles start
