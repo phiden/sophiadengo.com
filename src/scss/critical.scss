@@ -48,7 +48,7 @@ body {
 
 a:not([class]) {
   color: currentColor;
-  text-decoration-color: get-color('quinary');
+  text-decoration-color: get-color('tertiary');
 }
 
 :focus {
@@ -64,7 +64,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 900;
+  font-weight: 700;
+  font-style: italic;
 
   @include apply-utility('font', 'base');
   @include apply-utility('leading', 'flat');
@@ -95,4 +96,3 @@ h4 {
   background-color: get-color('dark');
   border-radius: 0.25rem;
 }*/
-
