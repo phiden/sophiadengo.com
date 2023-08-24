@@ -5,22 +5,22 @@
   color: get-color('light-glare');
 
   &__inner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    //display: flex;
+    //flex-wrap: wrap;
+    //justify-content: space-between;
     align-items: center;
   }
 
   &__brand {
-    flex-shrink: 0;
-    margin-inline-end: get-size('600'); // Prevents nav bunching up to the logo
-    
+    //flex-shrink: 0;
+    //margin-inline-end: get-size('600'); // Prevents nav bunching up to the logo
+
     // if not using svg
     color: get-color('light-glare');
     text-decoration: none;
 
     // Optical adjustment to account for the offset the sunken 3s create
-    transform: translateY(0.25rem);
+    //transform: translateY(0.25rem);
 
     svg {
       width: 100px;
@@ -29,7 +29,7 @@
 
   &__nav {
     padding: get-size('300') 0;
-    
+
   }
 
   @include media-query('md') {

@@ -1,5 +1,5 @@
 ---
-title: 'About Issue 33'
+title: 'About Sophia'
 layout: 'layouts/about.html'
 permalink: '/about/index.html'
 primaryCTA:

@@ -1,7 +1,7 @@
 .intro {
   // Default is a single column layout where the header overlaps the media
   display: grid;
-  grid-template-rows: get-size('700') minmax(0, 1fr) get-size('700') auto;
+  //grid-template-rows: get-size('700') minmax(0, 1fr) get-size('700') auto;
   grid-gap: get-size('500');
 
   // Force items to span 1 column
@@ -17,7 +17,7 @@
     margin: 0 get-size('500'); // Adds a horizontal gutter
 
     // Prevents it from stretching to fill the space
-    //align-self: center;
+    align-self: center;
   }
 
   &__heading {
