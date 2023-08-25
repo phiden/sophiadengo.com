@@ -9,3 +9,4 @@ So, the next time I have to come pick this up:
 - update npm
 - update node
 - `npx eleventy --serve`
+- `npx gulp watch` (serve should do this but doesn't)

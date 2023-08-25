@@ -1,7 +1,8 @@
 .intro {
   // Default is a single column layout where the header overlaps the media
   display: grid;
-  //grid-template-rows: get-size('700') minmax(0, 1fr) get-size('700') auto;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr 3fr 1fr;
   grid-gap: get-size('500');
 
   // Force items to span 1 column
@@ -20,8 +21,31 @@
     align-self: center;
   }
 
+  &__content {
+
+    p {
+      max-width: 30ch;
+
+    }
+  }
+
+  &__summary {
+
+    padding-top: get-size('900');
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border:1px solid red;
+  }
+
   &__heading {
-    em {
+
+    padding-top: get-size('900');
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    h2 {
       font-style: normal;
       display: block;
 
@@ -31,30 +55,11 @@
     }
   }
 
-  &__media {
-    grid-row: 1/4;
-    position: relative;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-
-  &__content {
-    grid-row: 4;
-
-    p {
-      max-width: 30ch;
-    }
-  }
-
   // Switch to an inline layout with some vert space
   // above the header and content
-  @include media-query('md') {
-    grid-template-rows: get-size('500') auto auto auto;
-    grid-template-columns: minmax(15rem, 1fr) 2fr;
+  /*@include media-query('md') {
+  //  grid-template-rows: get-size('500') auto auto auto;
+  //  grid-template-columns: minmax(15rem, 1fr) 2fr;
 
     &__header {
       padding: get-size('500');
@@ -73,15 +78,6 @@
       grid-row: 3/4;
       grid-column: 1;
     }
-  }
+  }*/
 
-  // Flip the ratio for larger breakpoints
-  @include media-query('lg') {
-    grid-template-columns: 2fr minmax(44rem, 1fr);
-
-    // Because it's so large, it make sense to limit the image height too
-    &__media {
-      height: 28rem;
-    }
-  }
 }
