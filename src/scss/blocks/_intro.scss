@@ -1,58 +1,42 @@
 .intro {
   // Default is a single column layout where the header overlaps the media
+  height: 500px;
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr 3fr 1fr;
   grid-gap: get-size('500');
-
+  padding-top: get-size('900');
   // Force items to span 1 column
   > * {
     grid-column: 1;
   }
 
+  //this applies to nothing now
   &__header {
     padding: get-size('300') get-size('500');
     background: rgba(get-color('tertiary'), 0.95);
-    z-index: 1;
-    grid-row: 2;
     margin: 0 get-size('500'); // Adds a horizontal gutter
 
     // Prevents it from stretching to fill the space
     align-self: center;
   }
 
-  &__content {
+  p {
+  //  max-width: 30ch;
 
-    p {
-      max-width: 30ch;
-
-    }
-  }
-
-  &__summary {
-
-    padding-top: get-size('900');
-    grid-column-start: 2;
-    grid-column-end: 3;
-    border:1px solid red;
   }
 
   &__heading {
-
-    padding-top: get-size('900');
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    vertical-align: middle;
+    border:1px solid get-color('primary');
+  }
 
-    h2 {
-      font-style: normal;
-      display: block;
-
-      // The weight change creates a weird indent, so this
-      // optical adjustment fixes it
-      transform: translateX(-3px);
-    }
+  &__summary {
+    border:1px solid green;
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 
   // Switch to an inline layout with some vert space
