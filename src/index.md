@@ -5,7 +5,7 @@ layout: 'layouts/home.html'
 intro:
   eyebrow: ""
   main: 'a senior product designer, focused on the human experience'
-  summary: "I love to make beautiful and delightful things, but ultimately, I work to increase inclusivity and access to digital services, to simplify tools, and to make the products I touch more satisfying to use."
+  summary: "I love to make beautiful things, but I primarily work to increase inclusivity and access to digital services, to simplify tools, and to make the products I touch more satisfying to use."
   buttonText: 'See my work'
   buttonUrl: '/work'
 primaryCTA:

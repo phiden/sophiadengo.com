@@ -6,15 +6,22 @@
 
   <article class="intro"> <!-- grid is set here -->
 
-    <h2 class="[ intro__heading ] [ weight-normal text-400 md:text-600 ] text-700 weight-bold">
+    <h2 class="[ intro__heading ]">
       {{ intro.main }}
     </h2>
-    <p class='intro__summary'>{{ intro.summary }}</p>
+
+    <div class='intro__summary'>
+      <p>{{ intro.summary }}</p>
+    </div>
+
+    <div class='intro__cta'>
+      <a href="{{ intro.buttonUrl }}" class="button">{{ intro.buttonText }}</a>
+    </div>
 
   </article>
 
   <div>
-    <a href="{{ intro.buttonUrl }}" class="button">{{ intro.buttonText }}</a>
+
     </div>
 
 </div>
