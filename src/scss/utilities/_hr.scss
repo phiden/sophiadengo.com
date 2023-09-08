@@ -1,0 +1,23 @@
+/**
+ * Horizontal rule
+ * creates a styled <hr> element
+ */
+
+ hr.icon {
+   margin: 25px auto 30px;
+   padding: 0;
+   border: 0;
+   border-top: solid 3px;
+   text-align: center;
+ }
+
+ hr.icon:after {
+   content: "✨";
+   display: inline-block;
+   position: relative;
+   top: -1.7rem;
+   padding: 0 1rem;
+   font-family: FontAwesome;
+   font-size: 3rem;
+   background-color: #fff; // Must Match Page Background
+ }
