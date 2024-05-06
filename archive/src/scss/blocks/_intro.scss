@@ -1,0 +1,67 @@
+.intro {
+  // Default is a single column layout where the header overlaps the media
+  height: 500px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-gap: get-size('500');
+  padding-top: get-size('900');
+  // Force items to span 1 column
+  > * {
+    grid-column: 1;
+  }
+
+  //this applies to nothing now
+  &__header {
+    padding: get-size('300') get-size('500');
+    background: rgba(get-color('tertiary'), 0.95);
+    margin: 0 get-size('500'); // Adds a horizontal gutter
+
+    // Prevents it from stretching to fill the space
+    align-self: center;
+  }
+
+  p {
+  //  max-width: 30ch;
+
+  }
+
+  &__heading {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    vertical-align: middle;
+    border:1px solid get-color('primary');
+  }
+
+  &__summary {
+    border:1px solid green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  // Switch to an inline layout with some vert space
+  // above the header and content
+  /*@include media-query('md') {
+  //  grid-template-rows: get-size('500') auto auto auto;
+  //  grid-template-columns: minmax(15rem, 1fr) 2fr;
+
+    &__header {
+      padding: get-size('500');
+      margin: 0;
+      grid-column: 1/2;
+      justify-self: start;
+      align-self: end;
+    }
+
+    &__media {
+      grid-column: 2/3;
+      grid-row: 1/5;
+    }
+
+    &__content {
+      grid-row: 3/4;
+      grid-column: 1;
+    }
+  }*/
+
+}

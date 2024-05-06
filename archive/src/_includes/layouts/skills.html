@@ -1,0 +1,46 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+
+{% block content %}
+  <article>
+    {% include "partials/page-header.html" %}
+  </article>
+
+  <article>
+    design software currently in use:
+    figma
+    miro
+
+    other software I've worked with:
+    sketch
+    mural
+    Photoshop
+    Illustrator
+    Balsamiq
+    Moqups
+
+  </article>
+
+  <article>
+    tech skills:
+
+    css / SCSS
+    html
+
+    novice-level: Typescript / Javascript
+
+    React, well enough to make front-end changes
+    Github and Azure DevOps
+  </article>
+
+  <article>
+    concepts:
+
+    design systems
+    content management systems, primarily Wordpress and Shopify
+  </article>
+  
+  {% include "partials/cta.html" %}
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "layouts/base.html" %}
+
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
+
+{% block content %}
+
+{% set ctaContent = primaryCTA %}
+{% include "partials/cta.html" %}
+
+  <article>
+    {% include "partials/page-header.html" %}
+    {% include "partials/resume-items.html" %}
+  </article>
+
+
+{% endblock %}
